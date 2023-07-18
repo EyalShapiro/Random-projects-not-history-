@@ -2,7 +2,7 @@ import time
 import socket
 import sys
 import os
-
+# server
 s = socket.socket()
 
 # Initialize the host

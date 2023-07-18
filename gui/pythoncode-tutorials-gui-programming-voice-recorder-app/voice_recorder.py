@@ -93,8 +93,8 @@ def recording_thread():
 # creates the window using Tk() fucntion
 window = Tk()
 # קבצים של תמונת
-file_ico = "C:\Eyal\Codes\py\gui\\tk\pythoncode-tutorials-gui-programming-voice-recorder-app\\voice_recorder_icon.ico"
-file_recorder = "C:\Eyal\Codes\py\gui\\tk\pythoncode-tutorials-gui-programming-voice-recorder-app\\recorder.png"
+file_ico = "C:\Eyal\Codes\Random-projects-not-history-\gui\pythoncode-tutorials-gui-programming-voice-recorder-app\\voice_recorder_icon.ico"
+file_recorder = "C:\Eyal\Codes\Random-projects-not-history-\gui\pythoncode-tutorials-gui-programming-voice-recorder-app\\recorder.png"
 
 # this will listen to the close window event
 window.protocol('WM_DELETE_WINDOW', close_window)

@@ -2,7 +2,7 @@ import time
 import socket
 import sys
 import os
-
+#client
 # Initialize s to socket
 s = socket.socket()
 
