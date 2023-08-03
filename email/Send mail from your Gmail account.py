@@ -6,9 +6,9 @@ Hello,Eyal —— erg97ghbuyregf9h
 Thank You
 """
 # The mail addresses and password
-sender_address = 'eyalyotamyt@gmail.com'  # מייל השולח'
-sender_pass = 'Aviv12234'  # password from sender_address
-receiver_address = 'eyalshapiro24@gmail.com'  # מייל הנשלח
+sender_address = 'send@outlgpb.8'  # מייל השולח'
+sender_pass = 'pass'  # password from sender_address
+receiver_address = 'getting@gmail.com'  # מייל הנשלח
 # Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address
