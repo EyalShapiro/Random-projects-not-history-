@@ -2,7 +2,7 @@ import pyautogui
 import os
 # ניתב מיקום קובץ לדוגמא "/home/User/Desktop/"
 path_Screen = os.path.split(os.path.abspath(__file__))[0]+r'\Screen.png'
-
+print(path_Screen)
 
 def main():
     image = pyautogui.screenshot(imageFilename=path_Screen)
