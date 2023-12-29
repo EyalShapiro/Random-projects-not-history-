@@ -1,11 +1,10 @@
 # Importing tkinter module
 from tkinter import *
 # from tkinter.ttk import *
-
 # creating Tk window
 master = Tk()
 
-
+print('start')
 def main():
     # creating a Fra, e which can expand according
     # to the size of the window
@@ -15,16 +14,13 @@ def main():
     # button widgets which can also expand and fill
     # in the parent widget entirely
     # Button 1
-    b1 = Button(pane, text="Click me !",
-                background="green", fg="white")
+    b1 = Button(pane, text="Click me !", background="green", fg="white")
 
     # Button 2
-    b2 = Button(pane, text="Click me too",
-                background="blue", fg="white")
+    b2 = Button(pane, text="Click me too", background="blue", fg="white")
 
     # Button 3
-    b3 = Button(pane, text="quit",
-                background="red", fg="white", command=pane.quit)
+    b3 = Button(pane, text="quit", background="red", fg="white", command=pane.quit)
     b1.pack(side=TOP, expand=True, fill=BOTH)
     b2.pack(side=TOP, expand=True, fill=BOTH)
     b3.pack(side=TOP, expand=True, fill=BOTH)
@@ -33,5 +29,5 @@ def main():
     master.mainloop()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
